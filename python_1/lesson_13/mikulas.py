@@ -49,7 +49,8 @@ sorok = len(regies_nevek)
 oszlopok = 2
 
 # List comprehension módszer (EZ A JAVASOLT)
-matrix = [[] * oszlopok for _ in range(sorok)]
+matrix = [[0] * oszlopok for _ in range(sorok)]
+print(matrix)
 
 # print(matrix)
 while(True):
@@ -100,12 +101,14 @@ while(True):
         for i in range(1, len(matrix), 1):
             if(best < matrix[i][1]):
                 best = matrix[i][1]
+        print(best)
 
     elif(choice == "7"):
         worst = matrix[0][1]
         for i in range(1, len(matrix), 1):
             if(worst > matrix[i][1]):
                 worst = matrix[i][1]
+        print (worst)
 
     elif(choice == "8"):
         for i in range(len(matrix)):
@@ -113,7 +116,3 @@ while(True):
 
     else:
         print("OutOfChoiceException.... Try again!")
-
-
-        # print(matrix)
-
