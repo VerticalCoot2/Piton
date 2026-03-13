@@ -8,7 +8,7 @@ def main():
     round = 1
     while(True):
         print(f"Round {round}")
-        userInput = input("Choose: Rock, Paper, Scissors\t(ty it in)\n")
+        userInput = input("Choose: Rock, Paper, Scissors\t(type it in)\n")
         game = MiniGame(options, userInput)
 
         match(game):
@@ -24,6 +24,7 @@ def main():
             case 2:
                 print("You lost.")
                 lose += 1
+
         print(f"Stats\n\tWins: {win}\n\tLoses: {lose}\n\tTies: {tie}")
         round += 1
 
