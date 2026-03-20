@@ -11,6 +11,7 @@ def f1():
          [7,8,9, 3, 0, 1]]    
     # print(m)
     f2(m)
+    
 def f2(m):
     for i in range(len(m)):
         for j in range(len(m[i])):
