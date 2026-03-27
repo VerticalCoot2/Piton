@@ -4,10 +4,10 @@ import math
 
 def main():
     s("cls")
-    # f1()
-    # f2()
-    # f3()
-    # f4()
+    f1()
+    f2()
+    f3()
+    f4()
     f5()
 
 def f1(): #lisztkomprehensön
