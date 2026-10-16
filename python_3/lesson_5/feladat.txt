@@ -1,0 +1,16 @@
+Csinálj egy programot, ami bekér egy emberi nevet, a lábméretét, magasságát, kedvenc számát, és az ébren töltött óráinak számát, és a veszített fortnite meccsei számát.
+Ezeket széveld ki egy tápöl be. Írd ki szépen rendezetten.
+
+majd kérj be még 4 nevet, ezeknek a program generálja le a számait, majd csinálj egy tápöl mátrixot, és írd ki azt is rendezetten, prezentálható formában.
+
+a legelső feladatban bekért adatokból csinálj egy dictionary-t
+
+A következő feladatokat a dictionary használatával oldd meg:
+
+-A) feladat:
+	-írd ki, hány szóból áll a neve
+	-írja ki a neve szavainak átlag karakterszámát
+
+-B) feladat:
+	számold ki a lábméret és a magasság szorzatának, valamint a veszített 	fortnite meccsek hányadosát.
+	
