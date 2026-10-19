@@ -36,7 +36,9 @@ def A(d):
     wrdCount = len(d["name"].split(" "))+1
     print(f"A névben lévő szavak száma: {wrdCount}")
     print(f"a nevek átlagos karakter száma: {sum([len(d["name"].split(" ")[i]) for i in range(len(wrdCount))])/wrdCount}")
-
+    # print(f"a nevek átlagos karakter száma: {sum(map(len,d["name"].split(" ")))/len(d["name"].split(" ")) }")
+    print(f"a nevek átlagos karakter száma: {sum([len(d["name"].split(" ")[i]) for i in range(len(wrdCount))])/wrdCount}")
+        
 def B(d):
     print((d["footSize"]*d["height"])/d["losesInFortnite"])
 
