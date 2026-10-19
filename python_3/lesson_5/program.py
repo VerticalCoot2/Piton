@@ -8,7 +8,12 @@ def main():
 
     a = [input(f"give me the {i+1} name") for i in range(4)]
 
-    m = tuple([tuple([a[i], r(0,61), r(10, 273), r(-2147483647, 2147483648), r(0, 265), r(0,215001)]) for i in range(len(a))])
+    m = tuple([tuple([a[i], 
+                      r(0,61), 
+                      r(10, 273), 
+                      r(-2147483647, 2147483648), 
+                      r(0, 265), 
+                      r(0,215001)]) for i in range(len(a))])
     print(*m)
 
     d = {
