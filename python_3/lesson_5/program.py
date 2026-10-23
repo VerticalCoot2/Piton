@@ -13,7 +13,8 @@ def main():
                       r(10, 273), 
                       r(-2147483647, 2147483648), 
                       r(0, 265), 
-                      r(0,215001)]) for i in range(len(a))])
+                      r(0,215001)])
+                      for i in range(len(a))])
     print(*m)
 
     d = {
@@ -42,7 +43,7 @@ def A(d):
     print(f"A névben lévő szavak száma: {wrdCount}")
     print(f"a nevek átlagos karakter száma: {sum([len(d["name"].split(" ")[i]) for i in range(len(wrdCount))])/wrdCount}")
     # print(f"a nevek átlagos karakter száma: {sum(map(len,d["name"].split(" ")))/len(d["name"].split(" ")) }")
-    print(f"a nevek átlagos karakter száma: {sum([len(d["name"].split(" ")[i]) for i in range(len(wrdCount))])/wrdCount}")
+    # print(f"a nevek átlagos karakter száma: {sum([len(d["name"].split(" ")[i]) for i in range(len(wrdCount))])/wrdCount}")
         
 def B(d):
     print((d["footSize"]*d["height"])/d["losesInFortnite"])

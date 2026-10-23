@@ -1,0 +1,5 @@
+1.) Csináljatok egy olyan ciklust, ami megnézni, hogy az felhasználó által megadott szám prím-e
+
+2.)  csináljatok kis egyszerű menut egy regisztráió, és bejelentkezés menüpontal. a "regisztációs" résznél, meg kell adni az e-mailt, jelszót, dobja vissza, ha nem helyes az e-mail-t, ha nem jó formátumú(nincs benne kukac, és a kukac után pont) addig dobálja vissza, amíg nem jó. Jeélszónál ugyan ez, ellenőrizze, hogy van e benne kisbetű, nagy betű, különleges karakter, szám.
+Amennyiben sikeresen regisztrált, írja ki a bejelentkezési adatokat egy file ba. utána a bejelentkezési résznél abból a file-ból ellenőrizze a bejelentkezést. ANTI BRUTEFORCE: ha jó az e-mail, és a jelszó is, egyszer dobja vissza, hogy helytelen, tehát csak akkor tudjunk belépni, ha kétszer egymás után jól beírtuk mind a kettőt. (ha e-mail, vagy jelszó nem jó, egyből dobjuk vissza, hogy helytelen).
+a sikeres a bejelentkezés, csak legyen egy másik menü egy "semmi" menüpontal ami nem csinál semmit, és egy kijelentkezés menüpontal, ami vissza visz minket az alap oldalra
