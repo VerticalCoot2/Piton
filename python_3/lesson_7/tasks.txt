@@ -1,0 +1,9 @@
+Kezdj el egy piramist építeni a következő szabályok szerint:
+a csúcson csak 1 tégla lehet
+lefelé haladva minden sorban egy téglával többnek kell lennie, mint az előzőben
+Például: 6 téglánk van:
+1 tégla
+2 tégla
+3 tégla
+És nem maradt több téglánk.
+A feladatunk az, hogy a téglák számát bemenetként megkapjuk, majd ebből kiszámítsuk a piramis magasságát. Számítsuk ki azt is, hogy hány felesleges tégla maradt, amit nem tudtunk felhasználni a piramis építéséhez.

@@ -1,8 +1,11 @@
 from os import system as s
+import json
+import pathlib as path
+import hashlib
 
 def main():
     s("cls")
-    feladat2()
+    TextAppendLI("email@domain.com","password")
 
 def feladat2():
     while(1):
@@ -53,9 +56,15 @@ def Register():
     input("Sikeres regisztráció! [PRESS ENTER]")
 
 def TextAppendLI(email, password):
-    a = open("loginInfo.txt", "a", encoding="utf-8")
-    a.write(f"{email};{password}\n") #a pontos vessző nem jó megoldás
+    # print(path)
+    b = []
+    with open("python_3/lesson_6/loginInfo.json", "r", encoding="utf-8") as a:
+        b = json.load(a)
     a.close()
+    b.append({"email" :email, "password" :password})
+    print(b)
+    
+    # a.write(f"{email};{password}\n") #a pontos vessző nem jó megoldás
 
 def Login():
     pass
