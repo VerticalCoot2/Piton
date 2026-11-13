@@ -1,0 +1,4 @@
+Feladat: Akasztófa szerűség.
+
+legyen 10 életed(rajzolás helyett életekkel dolgozunk)
+egy 500 hosszú (magyar(bonyolultabb))szavas szóbankot(külön txt file) kérjetek valamelyik AI tól, és abból sorsoljon egy random szót. Addig ismételjétek, amíg ki nem találta a felhasználó, vagy ki nem fogyott életekből. minden tipp elején alsó vonalakkal írjátok ki a kitalálandó szót(pl.: sajt => _ _ _ _ sör => _ _ _). Ha kitalál egy betűt, kerüljön bele. A nem jó betűket is írd ki egy gyűjteménybe, amit a szó alatt két sorral ír ki a program. A jéték addig fusson, amíg a felhasználó ki nem akar lépni egy játék után. JÉTÉK KÖZBEN NEM LÉPHET KI! vezesd a nyert, vesztett játszmák számait, és minden kör végén írd ki a statisztikákat(nyert körök, veszett körök, nyerés százaléka)
